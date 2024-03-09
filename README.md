@@ -137,7 +137,7 @@ Copy and paste this into your markdown, and that's it. Simple!
 Change the `?username=` value to your GitHub username.
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster)](https://github.com/lightdarkmaster/github-readme-stats)
+[![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster)](https://github.com/lightdarkmaster/github-readme-stats)
 ```
 
 > [!WARNING]\
@@ -153,7 +153,7 @@ You can pass a query parameter `&hide=` to hide any specific stats with comma-se
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&hide=contribs,prs)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&hide=contribs,prs)
 ```
 
 ### Showing additional individual stats
@@ -163,7 +163,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 > Options: `&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage`
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 ```
 
 ### Showing icons
@@ -171,7 +171,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 To enable icons, you can pass `&show_icons=true` in the query param, like so:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true)
 ```
 
 ### Themes
@@ -181,7 +181,7 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `&theme=THEME_NAME` parameter like so :
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true&theme=radical)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true&theme=radical)
 ```
 
 #### All inbuilt themes
@@ -194,8 +194,8 @@ You can look at a preview for [all available themes](themes/README.md) or checko
 
 #### Responsive Card Theme
 
-[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#responsive-card-theme#gh-light-mode-only)
+[![Christian's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
+[![Christian's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#responsive-card-theme#gh-light-mode-only)
 
 Since GitHub will re-upload the cards and serve them from their [CDN](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls), we can not infer the browser/GitHub theme on the server side. There are, however, four methods you can use to create dynamics themes on the client side.
 
@@ -204,13 +204,13 @@ Since GitHub will re-upload the cards and serve them from their [CDN](https://do
 We have included a `transparent` theme that has a transparent background. This theme is optimized to look good on GitHub's dark and light default themes. You can enable this theme using the `&theme=transparent` parameter like so:
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true&theme=transparent)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true&theme=transparent)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=transparent)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=transparent)
 
 </details>
 
@@ -219,13 +219,13 @@ We have included a `transparent` theme that has a transparent background. This t
 You can use the `bg_color` parameter to make any of [the available themes](themes/README.md) transparent. This is done by setting the `bg_color` to a color with a transparent alpha channel (i.e. `bg_color=00000000`):
 
 ```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true&bg_color=00000000)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true&bg_color=00000000)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&bg_color=00000000)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&bg_color=00000000)
 
 </details>
 
@@ -234,15 +234,15 @@ You can use the `bg_color` parameter to make any of [the available themes](theme
 You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) tags to switch the theme based on the user GitHub theme automatically. This is done by appending `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of an image URL. This tag will define whether the image specified in the markdown is only shown to viewers using a light or a dark GitHub theme:
 
 ```md
-[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#gh-light-mode-only)
+[![Christian's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#gh-dark-mode-only)
+[![Christian's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=lightdarkmaster&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#gh-light-mode-only)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#gh-light-mode-only)
+[![Christian's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#gh-dark-mode-only)
+[![Christian's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/lightdarkmaster/github-readme-stats#gh-light-mode-only)
 
 </details>
 
@@ -428,116 +428,6 @@ Use [show\_owner](#gist-card-exclusive-options) query option to include the gist
 
 ![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d\&show_owner=true)
 
-# Top Languages Card
-
-The top languages card shows a GitHub user's most frequently used languages.
-
-> [!WARNING]\
-> By default, the language card shows language results only from public repositories. To include languages used in private repositories, you should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
-
-> [!NOTE]\
-> Top Languages does not indicate the user's skill level or anything like that; it's a GitHub metric to determine which languages have the most code on GitHub. It is a new feature of github-readme-stats.
-
-> [!WARNING]\
-> This card shows language usage only inside your own non-forked repositories, not depending on who the author of the commits is. It does not include your contributions into another users/organizations repositories. Currently there are no way to get this data from GitHub API. If you want this behavior to be improved you can support [this feature request](https://github.com/orgs/community/discussions/18230) created by [@rickstaa](https://github.com/rickstaa) inside GitHub Community.
-
-> [!WARNING]\
-> Currently this card shows data only about first 100 repositories. This is because GitHub API limitations which cause downtimes of public instances (see [#1471](https://github.com/lightdarkmaster/github-readme-stats/issues/1471)). In future this behavior will be improved by releasing GitHub action or providing environment variables for user's own instances.
-
-### Usage
-
-Copy-paste this code into your readme and change the links.
-
-Endpoint: `api/top-langs?username=lightdarkmaster`
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster)](https://github.com/lightdarkmaster/github-readme-stats)
-```
-
-### Language stats algorithm
-
-We use the following algorithm to calculate the languages percentages on the language card:
-
-```js
-ranking_index = (byte_count ^ size_weight) * (repo_count ^ count_weight)
-```
-
-By default, only the byte count is used for determining the languages percentages shown on the language card (i.e. `size_weight=1` and `count_weight=0`). You can, however, use the `&size_weight=` and `&count_weight=` options to weight the language usage calculation. The values must be positive real numbers. [More details about the algorithm can be found here](https://github.com/lightdarkmaster/github-readme-stats/issues/1600#issuecomment-1046056305).
-
-*   `&size_weight=1&count_weight=0` - *(default)* Orders by byte count.
-*   `&size_weight=0.5&count_weight=0.5` - *(recommended)* Uses both byte and repo count for ranking
-*   `&size_weight=0&count_weight=1` - Orders by repo count
-
-```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster&size_weight=0.5&count_weight=0.5)
-```
-
-### Exclude individual repositories
-
-You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repositories.
-
-```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster&exclude_repo=github-readme-stats,lightdarkmaster.github.io)
-```
-
-### Hide individual languages
-
-You can use `&hide=language1,language2` parameter to hide individual languages.
-
-```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster&hide=javascript,html)
-```
-
-### Show more languages
-
-You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 20 (inclusive). By default it was set to `5` for `normal` & `donut` and `6` for other layouts.
-
-```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster&langs_count=8)
-```
-
-### Compact Language Card Layout
-
-You can use the `&layout=compact` option to change the card design.
-
-```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster&layout=compact)
-```
-
-### Donut Chart Language Card Layout
-
-You can use the `&layout=donut` option to change the card design.
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster&layout=donut)](https://github.com/lightdarkmaster/github-readme-stats)
-```
-
-### Donut Vertical Chart Language Card Layout
-
-You can use the `&layout=donut-vertical` option to change the card design.
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster&layout=donut-vertical)](https://github.com/lightdarkmaster/github-readme-stats)
-```
-
-### Pie Chart Language Card Layout
-
-You can use the `&layout=pie` option to change the card design.
-
-```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster&layout=pie)](https://github.com/lightdarkmaster/github-readme-stats)
-```
-
-### Hide Progress Bars
-
-You can use the `&hide_progress=true` option to hide the percentages and the progress bars (layout will be automatically set to `compact`).
-
-```md
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster&hide_progress=true)
-```
-
-### Demo
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lightdarkmaster)
 
 *   Donut Chart layout
@@ -561,53 +451,53 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 
 *   Default
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster)
 
 *   Hiding specific stats
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&hide=contribs,issues)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&hide=contribs,issues)
 
 *   Showing additional stats
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
 *   Showing icons
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&hide=issues\&show_icons=true)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&hide=issues\&show_icons=true)
 
 *   Shows Github logo instead rank level
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&rank_icon=github)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&rank_icon=github)
 
 *   Shows user rank percentile instead of rank level
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&rank_icon=percentile)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&rank_icon=percentile)
 
 *   Customize Border Color
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&border_color=2e4058)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&border_color=2e4058)
 
 *   Include All Commits
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&include_all_commits=true)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&include_all_commits=true)
 
 *   Themes
 
 Choose from any of the [default themes](#themes)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=radical)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&show_icons=true\&theme=radical)
 
 *   Gradient
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api?username=lightdarkmaster\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
 
 *   Customizing stats card
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=lightdarkmaster\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api/?username=lightdarkmaster\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
 
 *   Setting card locale
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=lightdarkmaster\&locale=es)
+![Christian's GitHub stats](https://github-readme-stats.vercel.app/api/?username=lightdarkmaster\&locale=es)
 
 *   Customizing repo card
 
