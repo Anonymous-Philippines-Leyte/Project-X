@@ -3,8 +3,8 @@ exploitations defense code.
 
 
 <p align="center">
- <img width="100px" src="https://res.cloudinary.com/lightdarkmaster/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
- <h2 align="center">GitHub Readme Stats</h2>
+ <img width="100px" src="https://avatars.githubusercontent.com/u/139189486?s=400&u=4eb5fd1644b1162126c44c5dff62165a48acdc1c&v=4" align="center" alt="GitHub Christian's Stats" />
+ <h2 align="center">GitHub Christian Barbosa's Stats</h2>
  <p align="center">Get dynamically generated GitHub stats on your READMEs!</p>
 </p>
   <p align="center">
@@ -69,21 +69,15 @@ exploitations defense code.
   </p>
 </p>
 
-<p align="center">Please note that documentation translations may be outdated; try to use English documentation if possible.</p>
-
-<p align="center">Love the project? Please consider <a href="https://www.paypal.me/lightdarkmaster">donating</a> to help it improve!</p>
-
 <a href="https://indiafightscorona.giveindia.org">
   <img src="https://cfstatic.give.do/logo.png" alt="Give india logo" width="200" />
 </a>
 
 Are you considering supporting the project by donating to me? Please DO NOT!!!
 
-<img src="https://cfstatic.give.do/910ede2a-7892-43fe-8c8a-dea45e96d950.webp" alt="Picture of Coromandel Express train tragedy" width="35%">
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1024%2Fmedia%2Fimages%2F64395000%2Fjpg%2F_64395304_anonymous_demo_afp464x261.jpg&f=1&nofb=1&ipt=e7ec607650e48b2d8189167d194b2d370474770d3a663a727fb83868374d0174&ipo=images" alt="Pictures of Annonymous PH" width="35%">
 
-India has recently suffered one of the most devastating train accidents, and your help will be immensely valuable for the people who were affected by this tragedy.
-
-Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of-the-coromandel-express-train-tragedy-in-odisha-donate-now) and make a small donation to help the people in need. A small donation goes a long way. :heart:
+" We are Legion. We do not forgive. We do not forget. Expect us."
 
 </p>
 
@@ -280,86 +274,6 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 </picture>
 
 </details>
-
-### Customization
-
-You can customize the appearance of all your cards however you wish with URL parameters.
-
-#### Common Options
-
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `title_color` | Card's title color. | string (hex color) | `2f80ed` |
-| `text_color` | Body text color. | string (hex color) | `434d58` |
-| `icon_color` | Icons color if available. | string (hex color) | `4c71f2` |
-| `border_color` | Card's border color. Does not apply when `hide_border` is enabled. | string (hex color) | `e4e2e2` |
-| `bg_color` | Card's background color. | string (hex color or a gradient in the form of *angle,start,end*) | `fffefe` |
-| `hide_border` | Hides the card's border. | boolean | `false` |
-| `theme` | Name of the theme, choose from [all available themes](themes/README.md). | enum | `default` |
-| `cache_seconds` | Sets the cache header manually (min: 21600, max: 86400). | integer | `21600` |
-| `locale` | Sets the language in the card, you can check full list of available locales [here](#available-locales). | enum | `en` |
-| `border_radius` | Corner rounding on the card. | number | `4.5` |
-
-> [!WARNING]\
-> We use caching to decrease the load on our servers (see <https://github.com/lightdarkmaster/github-readme-stats/issues/1471#issuecomment-1271551425>). Our cards have a default cache of 6 hours (21600 seconds). Also, note that the cache is clamped to a minimum of 6 hours and a maximum of 24 hours. If you want the data on your statistics card to be updated more often you can [deploy your own instance](#deploy-on-your-own) and set [environment variable](#disable-rate-limit-protections) `CACHE_SECONDS` to a value of your choosing.
-
-##### Gradient in bg\_color
-
-You can provide multiple comma-separated values in the bg\_color option to render a gradient with the following format:
-
-    &bg_color=DEG,COLOR1,COLOR2,COLOR3...COLOR10
-
-##### Available locales
-
-Here is a list of all available locales:
-
-<table>
-<tr><td>
-
-| Code | Locale |
-| --- | --- |
-| `cn` | Chinese |
-| `zh-tw` | Chinese (Taiwan) |
-| `ar` | Arabic |
-| `cs` | Czech |
-| `de` | German |
-| `en` | English |
-| `bn` | Bengali |
-| `es` | Spanish |
-| `fr` | French |
-| `hu` | Hungarian |
-
-</td><td>
-
-| Code | Locale |
-| --- | --- |
-| `it` | Italian |
-| `ja` | Japanese |
-| `kr` | Korean |
-| `nl` | Dutch |
-| `pt-pt` | Portuguese (Portugal) |
-| `pt-br` | Portuguese (Brazil) |
-| `np` | Nepali |
-| `el` | Greek |
-| `ru` | Russian |
-| `uk-ua` | Ukrainian |
-
-</td><td>
-
-| Code | Locale |
-| --- | --- |
-| `id` | Indonesian |
-| `ml` | Malayalam |
-| `my` | Burmese |
-| `sk` | Slovak |
-| `tr` | Turkish |
-| `pl` | Polish |
-| `uz` | Uzbek |
-| `vi` | Vietnamese |
-| `se` | Swedish |
-
-</td></tr>
-</table>
 
 If we don't support your language, please consider contributing! You can find more information about how to do it in our [contributing guidelines](CONTRIBUTING.md#translations-contribution).
 
