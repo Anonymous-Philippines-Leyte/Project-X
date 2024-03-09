@@ -95,9 +95,6 @@ Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of
     - [Showing icons](#showing-icons)
     - [Themes](#themes)
     - [Customization](#customization)
-- [GitHub Extra Pins](#github-extra-pins)
-    - [Usage](#usage)
-    - [Demo](#demo)
 - [GitHub Gist Pins](#github-gist-pins)
     - [Usage](#usage-1)
     - [Demo](#demo-1)
@@ -422,44 +419,6 @@ If we don't support your language, please consider contributing! You can find mo
 > Language names should be URI-escaped, as specified in [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
 > (i.e: `c++` should become `c%2B%2B`, `jupyter notebook` should become `jupyter%20notebook`, etc.) You can use
 > [urlencoder.org](https://www.urlencoder.org/) to help you do this automatically.
-
-# GitHub Extra Pins
-
-GitHub extra pins allow you to pin more than 6 repositories in your profile using a GitHub readme profile.
-
-Yay! You are no longer limited to 6 pinned repositories.
-
-### Usage
-
-Copy-paste this code into your readme and change the links.
-
-Endpoint: `api/pin?username=lightdarkmaster&repo=github-readme-stats`
-
-```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lightdarkmaster&repo=github-readme-stats)](https://github.com/lightdarkmaster/github-readme-stats)
-```
-
-### Demo
-
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lightdarkmaster\&repo=github-readme-stats)
-
-Use [show\_owner](#repo-card-exclusive-options) query option to include the repo's owner username
-
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lightdarkmaster\&repo=github-readme-stats\&show_owner=true)
-
-# GitHub Gist Pins
-
-GitHub gist pins allow you to pin gists in your GitHub profile using a GitHub readme profile.
-
-### Usage
-
-Copy-paste this code into your readme and change the links.
-
-Endpoint: `api/gist?id=bbfce31e0217a3689c8d961a356cb10d`
-
-```md
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=bbfce31e0217a3689c8d961a356cb10d)](https://gist.github.com/Yizack/bbfce31e0217a3689c8d961a356cb10d/)
-```
 
 ### Demo
 
